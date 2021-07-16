@@ -1,4 +1,4 @@
-@extends("theme")
+@extends("table")
 @section("title" , "student" )
 @section("content")
 

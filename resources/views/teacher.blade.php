@@ -1,4 +1,4 @@
-@extends("theme")
+@extends("table")
 @section("title" , "teacher" )
 @section("content")
 <table class="table table-striped">
