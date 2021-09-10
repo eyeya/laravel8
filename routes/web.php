@@ -129,3 +129,16 @@ Route::delete('/staff/{id}', [StaffController::class, 'destroy']);
 use App\Http\Controllers\PostController;
 
 Route::resource('post', PostController::class);
+
+//Route::resource('profile', 'ProfileController');
+//Route::resource('user', 'UserController');
+//Route::resource('vehicle', 'VehicleController');
+
+use App\Http\Controllers\ProfileController;  
+use App\Http\Controllers\UserController;  
+use App\Http\Controllers\VehicleController;  
+
+Route::resource('profile', ProfileController::class);
+Route::resource('user', UserController::class);
+Route::resource('vehicle', VehicleController::class);
+
